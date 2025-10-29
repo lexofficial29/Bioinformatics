@@ -1,0 +1,12 @@
+1. Repetitive regions
+
+Many parts of DNA have repeats like:
+ATATATAT or AAAA or ACCACCACC
+
+2. Incomplete strings
+
+If the random reads don't cover every part of the genome enough times some information is lost
+
+3. Computational issues
+
+I used De Bruijn graphs to speed it up but normally it would've taken O(n^2) comparisons atleast
